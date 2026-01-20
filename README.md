@@ -7,11 +7,11 @@
         }
 #### 3 PARTS:
 * initialization - initialize a counter variable to keep track of # of loops run.
-          - before loop starts
+  * before loop starts
 + condition - evaluates true to continue loop.
-          - before each iteration
+  * before each iteration
 - increment or decrement statement - increase or decrease counter variable
-          - after each iteration
+  * after each iteration
 ### nested for loops
 
 ### for...of loop
