@@ -22,18 +22,18 @@
       }
 - Variable is the value from the iterable being looped and examine
     1. A value in array
-    2. A character in a string
-
-       1. const numbers = [1,2,3,4,5];
+        *const numbers = [1,2,3,4,5];
           
           for (const num of numbers) {
             console.log(num);
           }
-       2. const str = 'gooogle';
+    2. A character in a string
+       * const str = 'gooogle';
           
           for (let char of str) {
             console.log(char);
           }
+
  
 - Example
 
