@@ -1,14 +1,17 @@
 # JAVASCRIPT-LOOPS
 ### for loop
-- To repeat a block of code multiple times.
+- Repeats a block of code certain # of times.
 
         for (initialization; condition; increment or decrement) {
           // code block to be executed
         }
-* initialization- initialize a counter variable to keep track of # of loops run.
-+ condition - evaluate s true to continue loop.
-- increment or decrement - increase or decrease counter variable
-
+#### 3 PARTS:
+* initialization - initialize a counter variable to keep track of # of loops run.
+          - before loop starts
++ condition - evaluates true to continue loop.
+          - before each iteration
+- increment or decrement statement - increase or decrease counter variable
+          - after each iteration
 ### nested for loops
 
 ### for...of loop
