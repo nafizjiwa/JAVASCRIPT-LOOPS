@@ -39,8 +39,7 @@
               for(let char of sentence){
                 if(vowels.includes(char)){
                   number += 1;
-                }
-                  
+                }   
               }
            return number;
         }
