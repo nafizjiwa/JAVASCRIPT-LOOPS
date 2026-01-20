@@ -14,7 +14,7 @@
 ### for...of loop
 - To loop over values in ARRAYS, and STRINGS. (iterables)
 
-      for (variable of iterable) {
+      for (const variable of iterable) {
         // code block to be executed
       }
 - Variable is the value from the iterable being looped and examine
@@ -31,16 +31,18 @@
           for (let char of str) {
             console.log(char);
           }
-
-          const people = [
-            { name: 'John', age: 30 },
-            { name: 'Jane', age: 25 },
-            { name: 'Jim', age: 40 }
-          ];
           
-          for (const person of people) {
-            console.log(`${person.name} is ${person.age}               years old`);
-          }
+        function getVowelCount(sentence) {
+              const vowels = 'aeiouAEIOU'
+              let number = 0;
+              for(let char of sentence){
+                if(vowels.includes(char)){
+                  number += 1;
+                }
+                  
+              }
+           return number;
+        }
           
 ### A for...in loop
   - To loop over the `PROPERTIES` or `KEYS` of an object.
