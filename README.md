@@ -34,7 +34,6 @@
             console.log(char);
           }
 
- 
 - Example
 
         function getVowelCount(sentence) {
@@ -49,7 +48,7 @@
         }
           
 ### A for...in loop
-  - To loop over the `PROPERTIES` or `KEYS` of an object.
+  - To loop over the `PROPERTIES` or `KEYS` of an `OBJECT`.
   - Not good for elements of an array use for...of loop or forEach, map, filter, reduce
 
       for (property in object) {
@@ -83,7 +82,7 @@
         }
 
 ### A while loop 
-  - Runs a block of code if condition is true.
+  - Runs a block of code if `condition is true`.
   - All while loops are used when the # of code blocks to run is unknown 
 
     while (condition) {
