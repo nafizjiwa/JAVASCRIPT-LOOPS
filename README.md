@@ -31,6 +31,7 @@
           for (let char of str) {
             console.log(char);
           }
+ 
           
         function getVowelCount(sentence) {
               const vowels = 'aeiouAEIOU'
