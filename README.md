@@ -5,9 +5,9 @@
         for (initialization; condition; increment or decrement) {
           // code block to be executed
         }
-initialization- initialize a counter variable to keep track of # of loops run.
-condition - evaluate s true to continue loop.
-increment or decrement - increase or decrease counter variable
+-initialization- initialize a counter variable to keep track of # of loops run.
+-condition - evaluate s true to continue loop.
+-increment or decrement - increase or decrease counter variable
 
 ### nested for loops
 
