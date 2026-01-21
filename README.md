@@ -20,6 +20,7 @@
       for (const variable of iterable) {
         // code block to be executed
       }
+  
 - Variable is the value from the iterable being looped and examine
     1. A value in array
         * const numbers = [1,2,3,4,5];
